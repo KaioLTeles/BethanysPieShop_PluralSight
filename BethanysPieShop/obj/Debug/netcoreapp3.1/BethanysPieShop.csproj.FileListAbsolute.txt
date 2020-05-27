@@ -1,0 +1,7 @@
+C:\Users\kaiol\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.csprojAssemblyReference.cache
+C:\Users\kaiol\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.AssemblyInfoInputs.cache
+C:\Users\kaiol\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.AssemblyInfo.cs
+C:\Users\kaiol\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.csproj.CoreCompileInputs.cache
+C:\Users\kaiol\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kaiol\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.RazorAssemblyInfo.cache
+C:\Users\kaiol\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.RazorAssemblyInfo.cs
