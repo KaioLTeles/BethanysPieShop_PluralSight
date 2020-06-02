@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using BethanysPieShop.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Identity;
 
 namespace BethanysPieShop
 {
@@ -28,6 +29,8 @@ namespace BethanysPieShop
         {
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<AppDbContext>();
             
             services.AddScoped<IPieRepository, PieRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -36,6 +39,7 @@ namespace BethanysPieShop
             services.AddHttpContextAccessor();
             services.AddSession();
             services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,12 +54,15 @@ namespace BethanysPieShop
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{Action=Index}/{id?}");                    
+                    pattern: "{controller=Home}/{Action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }
