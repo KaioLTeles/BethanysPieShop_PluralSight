@@ -5000,19 +5000,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kaiol\\.nuget\\packages\\": {}
+    "C:\\Users\\kaio.teles\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaiol\\source\\repos\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+      "projectUniqueName": "C:\\Users\\kaio.teles\\Documents\\git\\BethanysPieShop_PluralSight\\BethanysPieShop\\BethanysPieShop.csproj",
       "projectName": "BethanysPieShop",
-      "projectPath": "C:\\Users\\kaiol\\source\\repos\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
-      "packagesPath": "C:\\Users\\kaiol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaiol\\source\\repos\\BethanysPieShop\\BethanysPieShop\\obj\\",
+      "projectPath": "C:\\Users\\kaio.teles\\Documents\\git\\BethanysPieShop_PluralSight\\BethanysPieShop\\BethanysPieShop.csproj",
+      "packagesPath": "C:\\Users\\kaio.teles\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kaio.teles\\Documents\\git\\BethanysPieShop_PluralSight\\BethanysPieShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kaiol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kaio.teles\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
